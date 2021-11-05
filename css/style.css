@@ -6,22 +6,48 @@
   overflow: hidden;
   line-height: 0;
 }
+
 .header .header__titulo {
-  font-size: 24px;
+  font-size: 2rem;
   font-weight: 900;
   line-height: 3px;
+  margin-left: 0.8rem;
 }
+
 .header .header__mail {
-  font-size: 12px;
+  font-size: 0.9rem;
+  margin-left: 1rem;
+}
+
+.main {
+  width: 60%;
+  margin: auto;
+}
+
+.main .main__titulo {
+  grid-area: main__titulo;
+  text-align: center;
+}
+
+.main .bold {
+  font-weight: 900;
+  text-align: end;
 }
 
 body {
+  font-family: 'Montserrat', sans-serif;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  width: 100%;
-  background-color: black;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   background-image: url(../img/fondo.jpg);
   background-size: cover;
   background-attachment: fixed;
-}/*# sourceMappingURL=style.css.map */
+  letter-spacing: 0.5px;
+}
+
+body li {
+  list-style-type: none;
+  margin-bottom: 30px;
+}
+/*# sourceMappingURL=style.css.map */

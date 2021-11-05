@@ -1,4 +1,13 @@
 .main{
+    width: 60%;
+    margin: auto;
        .main__titulo{
+           grid-area: main__titulo;
+           text-align: center;
     }
-}
+    .bold{
+        font-weight: 900;
+        text-align: end;
+    }
+    }
+    
