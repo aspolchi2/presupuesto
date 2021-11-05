@@ -22,6 +22,18 @@
 }
 .main .main__titulo {
   text-align: center;
+  position: relative;
+  bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.main .main__titulo .main__presupuesto {
+  font-size: 5vw;
+  font-weight: 900;
+  color: rgba(48, 48, 48, 0.222);
+  position: relative;
+  top: 120px;
 }
 .main .almost {
   font-weight: 600;
@@ -71,6 +83,13 @@ body li {
   body .main {
     width: 100%;
     margin: auto;
+  }
+  body .main .main__titulo {
+    position: relative;
+    top: 3vh;
+  }
+  body .main .main__titulo .main__presupuesto {
+    display: none;
   }
   body .main li {
     position: relative;
