@@ -55,6 +55,28 @@ body li {
   margin-bottom: 30px;
 }
 
+.footer {
+  padding: 4rem 0;
+  width: 30%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.footer .icon {
+  width: 30px;
+  -webkit-transition: all 1s ease-in;
+  transition: all 1s ease-in;
+}
+
+.footer .icon:hover {
+  -webkit-transform: rotate(1turn);
+          transform: rotate(1turn);
+}
+
 @media only screen and (max-width: 600px) {
   body {
     background-position: center;
