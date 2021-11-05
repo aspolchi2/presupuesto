@@ -10,7 +10,6 @@
 .header .header__titulo {
   font-size: 2rem;
   font-weight: 900;
-  line-height: 3px;
   margin-left: 0.8rem;
 }
 
@@ -25,8 +24,11 @@
 }
 
 .main .main__titulo {
-  grid-area: main__titulo;
   text-align: center;
+}
+
+.main .almost {
+  font-weight: 600;
 }
 
 .main .bold {
@@ -36,6 +38,8 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1.1rem;
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
@@ -49,5 +53,19 @@ body {
 body li {
   list-style-type: none;
   margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-position: center;
+  }
+  body .main {
+    width: 100%;
+    margin: auto;
+  }
+  body .main li {
+    position: relative;
+    right: 20px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
